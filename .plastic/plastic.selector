@@ -1,0 +1,4 @@
+repository "Angry Birds@unity_33BA5998843B05B1C6A2@cloud"
+  path "/"
+    br "/main"
+    co "/main"
