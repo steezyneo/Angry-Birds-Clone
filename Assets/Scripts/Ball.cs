@@ -14,7 +14,6 @@ public class Ball : MonoBehaviour
 
     bool isClicked;
 
-
     private void Update()
     {
         if (isClicked)
@@ -44,7 +43,7 @@ public class Ball : MonoBehaviour
         StartCoroutine(Relese());
 
     }
-
+    
     IEnumerator Relese()
     {
         yield return new WaitForSeconds(releseTime);
